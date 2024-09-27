@@ -30,6 +30,77 @@
    <!-- Custom CSS -->
    <link rel="stylesheet" href="/assets/css/styles.css">
 
+   <style>
+      @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+       @media screen and (max-width: 576px) {
+           .ccd {
+               width: 80%;
+           }
+       }
+       @media screen and (max-width: 768px) {
+           .ccd {
+               width: 80%;
+           }
+       }
+       @media screen and (max-width: 992px) {
+       }
+       @media screen and (max-width: 1200px) {
+       }
+       .hlink{
+           border-radius: 10px;
+           transition: all 0.8s;
+       }
+       .hlink:hover{
+           background-color: #333333d8;
+           color: white;
+       }
+       #btnContato {
+           background-color: #333;
+           border-radius: 5px;
+           color: white;
+           font-weight: 600;
+       }
+       .ccd svg {
+           color: #333;
+       }
+       .whatsapp-button {
+           position: fixed;
+           bottom: 20px;
+           right: 20px;
+           background-color: #333;
+           color: white;
+           border-radius: 50%;
+           padding: 15px;
+           font-size: 20px;
+           z-index: 1000;
+           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+           transition: all 0.3s ease;
+           text-align: center;
+       }
+       .whatsapp-tooltip {
+           position: fixed;
+           bottom: 80px;
+           right: 25px;
+           background-color: #333;
+           color: white;
+           padding: 8px 12px;
+           border-radius: 5px;
+           font-size: 14px;
+           visibility: hidden;
+           opacity: 0;
+           transition: opacity 0.3s ease;
+           z-index: 1000;
+       }
+       .whatsapp-button:hover + .whatsapp-tooltip {
+           visibility: visible;
+           opacity: 1;
+       }
+
+       .card-atendimento:hover{
+        transition: all 0.5s;
+        transform: translateY(-10px);
+       }
+   </style>
    <!--
     Anotations:
     Link icones: https://icons.getbootstrap.com/
