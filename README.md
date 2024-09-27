@@ -2,7 +2,7 @@
 
 Este projeto é o site oficial da Val Montagens, uma empresa especializada em manutenção e montagem industrial. O site apresenta informações sobre os serviços oferecidos, valores, clientes, perguntas frequentes e uma área de contato para os visitantes.
 
-https://lima-joseph.github.io/Val-Montagens/index.html
+https://lima-joseph.github.io/val-montagens/index.html
 
 ## Estrutura do Site
 
