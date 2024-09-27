@@ -61,9 +61,3 @@ O rodapé contém links para as redes sociais da Val Montagens, como Facebook, W
 - **CSS3**
 - **Bootstrap 5**: Para o layout responsivo e estilização.
 - **JavaScript**: Para interatividade e funcionalidades do carrossel.
-
-## Instruções para Uso
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/val-montagens.git
