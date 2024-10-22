@@ -17,10 +17,6 @@
            border-radius: 10px;
            transition: all 0.8s;
        }
-       .hlink:hover{
-           background-color: #333333d8;
-           color: white;
-       }
        #btnContato {
            background-color: #333;
            border-radius: 5px;
@@ -63,7 +59,10 @@
            opacity: 1;
        }
 
-       .card-atendimento:hover{
+       .card-atendimento{
         transition: all 0.5s;
+       }
+       .card-atendimento:hover{
         transform: translateY(-10px);
        }
+   
